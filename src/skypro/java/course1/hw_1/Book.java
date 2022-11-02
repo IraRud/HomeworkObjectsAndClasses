@@ -12,6 +12,15 @@ public class Book {
         this.yearOfPublication = yearOfPublication;
     }
 
+    public String getTitle() {
+        return this.title;
+    }
 
+    public Author getAuthor() {
+        return this.author;
+    }
 
+    public int getYearOfPublication() {
+        return this.yearOfPublication;
+    }
 }
