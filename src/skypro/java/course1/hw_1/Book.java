@@ -29,4 +29,10 @@ public class Book {  // класс Книга
     public void setYearOfPublication(int yearOfPublication) {
         this.yearOfPublication = yearOfPublication;
     }
+
+    // переопределение методов
+    @Override
+    public String toString() {
+        return "Название книги: " + title + "; " + author.toString() + "; год публикации " + yearOfPublication + ".";
+    }
 }

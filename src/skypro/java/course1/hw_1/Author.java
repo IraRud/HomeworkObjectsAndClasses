@@ -17,4 +17,10 @@ public class Author {  // класс Автор
     public String getSurname() {
         return this.surname;
     }
+
+    // переопределение методов
+    @Override
+    public String toString() {
+        return "автор: " + name + " " + surname;
+    }
 }
